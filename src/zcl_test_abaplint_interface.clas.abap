@@ -17,6 +17,6 @@ CLASS ZCL_TEST_ABAPLINT_INTERFACE IMPLEMENTATION.
 
 
   METHOD if_http_extension~handle_request.
-    sy-subrc = sy-subrc. 
+    sy-subrc = sy-subrc.
   ENDMETHOD.
 ENDCLASS.
